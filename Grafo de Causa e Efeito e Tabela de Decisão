@@ -1,6 +1,7 @@
 ## Tarefa 005 - 08/02/2022 - Grafo de Causa e Efeito / Tabela de Decisão.
 
 1.Considere o seguinte cenário: Uma corretora de seguros concede desconto sobre o prêmio anual de seguro de automóvel, aos seus segurados conforme as regras a seguir:
+
 |Sexo|Idade (anos)|Estado Civil|Desconto (%)|
 |---|---|---|---|
 |Masculino|< 25|Solteiro|0|
@@ -14,7 +15,9 @@
 
 2. Solicita-se:
    1. Geração do grafo de causa e efeito para representar este cenário.
-      Endereço com imagem: https://docs.google.com/document/d/1R2dvEYr18aAGIVIXFbJFjEXO1aLgg-6nWMJ80E-sR6c/edit?usp=sharing 
+   
+      Endereço com imagem: https://docs.google.com/document/d/1R2dvEYr18aAGIVIXFbJFjEXO1aLgg-6nWMJ80E-sR6c/edit?usp=sharing
+      
    2. Geração da tabela de decisão para representar o cenário.
    
      |Condições|
@@ -31,7 +34,8 @@
      |20%|---|---|---|---|---|-X|---|---|
      
    3. Geração do conjunto de casos de teste suficientes para cobrir todos os cenários, constantes do grafo e da tabela de decisão.
-     |Caso de Teste|Sexo|Idade (anos)|Estado Civil|Saída Esperada (R$))|
+   
+     |Caso de Teste|Sexo|Idade (anos)|Estado Civil|Saída Esperada (R$)|
      |---|---|---|---|---|
      |CT1|Masculino|< 25|Solteiro|0|
      |CT2|Masculino|< 25|Casado|100|
